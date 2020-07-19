@@ -1,5 +1,5 @@
 {
-  "name": "burgerlyfe",
+  "name": "PixelBurgers",
   "version": "1.0.0",
   "description": "sql linked burger dashboard",
   "main": "server.js",
@@ -9,7 +9,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wannabewayno/BurgerLyfe.git"
+    // "url": "git+https://github.com/wannabewayno/BurgerLyfe.git" //ORIGINAL
+    "url": "git+https://github.com/Kane-R/PixelBurgers.git"
+ 
   },
   "keywords": [
     "burger",
@@ -17,12 +19,14 @@
     "javascript",
     "node"
   ],
-  "author": "wayne griffiths",
+  "author": "kane robinson",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/wannabewayno/BurgerLyfe/issues"
+     // "url": "git+https://github.com/wannabewayno/BurgerLyfe/issues - ORIGINAL
+    "url": "https://github.com/Kane-R/PixelBurgers/issues"
   },
-  "homepage": "https://github.com/wannabewayno/BurgerLyfe#readme",
+      // "url": "git+https://github.com/wannabewayno/BurgerLyfe#readme - ORIGINAL
+  "homepage": "https://github.com/Kane-R/PixelBurgers#readme",
   "dependencies": {
     "express": "^4.17.1",
     "express-handlebars": "^4.0.4",
