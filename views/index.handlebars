@@ -1,0 +1,78 @@
+
+<div class='container'>
+    <h1 class="title z-depth-3">Burger Lyfe</h1>
+
+    {{!-- add burger form --}}
+    <form action='post' id='add-burger-form'>
+        <div class="inline">
+
+            <div class='input-field size'>
+                <input type='text' id='add-burger-input' class='colour'>
+                <label for='add-burger-input'>Add burger</label>
+            </div>
+            <button type='submit' class="burger-button">🍔</button>
+
+        </div>
+    </form>
+
+    {{!-- materialize grid  --}}
+    <div class='row'>
+        {{!-- column undevoured --}}
+        <div class="col s6">
+            <ul>
+                {{#each this.notDevoured}}
+                    <li class="burger-wrapper" data-id="{{this.id}}">
+
+                        <button class='btn-flat delete-button'>
+                            <i class='tiny material-icons'>close</i>
+                        </button>
+
+                        <div class='devour'>Devour!</div>
+
+                        <div class="bun top"></div>
+                        {{#each this.name}}
+                            <div class="filling">{{word}}</div>
+                        {{/each}} 
+                        <div class="bun bottom"></div>
+
+                    </li>
+                {{/each}}
+            </ul>
+        </div>
+        {{!-- column devoured --}}
+        <div class="col s6">
+                <ul>
+                {{#each this.devoured}}
+                    <li class="burger-wrapper" data-id="{{this.id}}">
+
+                        <button class='btn-flat delete-button'>
+                            <i class='tiny material-icons'>close</i>
+                        </button>
+
+                        <div class="bite">
+                            <div class="biteMark mark1"></div>
+                            <div class="biteMark mark2"></div>
+                            <div class="biteMark mark3"></div>
+                            <div class="biteMark mark4"></div>
+                            <div class="biteMark cover"></div>
+                        </div>
+
+                        <div class='devoured-banner'>DEVOURED</div>
+
+                        <div class="bun top devoured"></div>
+                        {{#each this.name}}
+                            <div class="filling devoured">{{word}}</div>
+                        {{/each}} 
+                        <div class="bun bottom devoured"></div>
+
+                    </li>
+                {{/each}}
+            </ul>
+        <div>
+
+    </div>
+
+</div>
+
+
+

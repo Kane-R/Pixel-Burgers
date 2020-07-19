@@ -1,0 +1,20 @@
+/* styles the burger button */
+.burger-button{
+    background-color: transparent;
+    font-size: 2.5rem;
+    border: none;
+    padding:none;
+    margin:none;
+    transition:all 200ms ease-in-out;
+}
+
+.burger-button:hover,.burger-button:focus {
+    outline: none;
+    background-color: transparent;
+    font-size: 2.8rem;
+    cursor: pointer;
+}
+
+.burger-button:active{
+
+}

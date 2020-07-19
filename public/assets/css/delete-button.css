@@ -1,0 +1,13 @@
+.delete-button{
+    padding:0;
+    margin:0;
+    background-color: transparent;
+    position: absolute;
+    top:-1.2rem;
+    right:-1rem;
+    transition:all 200ms ease-in-out;
+}
+
+.delete-button:hover, .delete-button:focus {
+    transform: scale(1.5);
+}

@@ -1,0 +1,28 @@
+/* font-family: 'Special Elite', cursive; */
+
+.devoured-banner{
+    font-weight: 600;
+    background-color: hsla(0,0%,20%,0.5);
+    position: absolute;
+    top: 25%;
+    font-size: 1.8rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    border: 3px solid rgba(232,30,30,0.5);
+    transform: rotateZ(30deg);
+    font-family: 'Special Elite', cursive;
+    color: rgba(232,30,30,0.5);
+    z-index: 9000;
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    
+    .devoured-banner {
+        font-size: 1rem;
+        border-radius:0.8rem;
+        border-width:2px;
+    }
+}
