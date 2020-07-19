@@ -9,8 +9,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wannabewayno/BurgerLyfe.git"
-    "url": "git+https://github.com/wannabewayno/BurgerLyfe.git"
+    // "url": "git+https://github.com/wannabewayno/BurgerLyfe.git"
+    "url": "git+https://github.com/Kane-R/Pixel-Burgers.git"
   },
   "keywords": [
     "burger",
@@ -18,7 +18,7 @@
     "javascript",
     "node"
   ],
-  "author": "kane robinson",
+  "author": "wayne griffiths",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/wannabewayno/BurgerLyfe/issues"
