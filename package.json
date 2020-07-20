@@ -9,8 +9,7 @@
   },
   "repository": {
     "type": "git",
-    // "url": "git+https://github.com/wannabewayno/BurgerLyfe.git"
-    "url": "git+https://github.com/Kane-R/Pixel-Burgers.git"
+    "url": "git+https://github.com/wannabewayno/BurgerLyfe.git"
   },
   "keywords": [
     "burger",
